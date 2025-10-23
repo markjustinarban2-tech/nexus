@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - J2 Nexus Technologies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header (same as index.html) -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="logo.png" alt="J2 Nexus Logo">
+        <span>J2 Nexus Technologies</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="login">
+        <a href="#">Sign In / Login</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 J2 Nexus Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
